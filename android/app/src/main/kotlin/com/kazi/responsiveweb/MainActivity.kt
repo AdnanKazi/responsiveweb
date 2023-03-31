@@ -1,0 +1,6 @@
+package com.kazi.responsiveweb
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
