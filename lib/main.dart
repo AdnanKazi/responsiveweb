@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Count: ',
+              'You have pushed this times: ',
             ),
             Text(
               '$_counter',
