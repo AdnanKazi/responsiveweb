@@ -37,11 +37,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  int _count = 0;
 
   void _incrCounter() {
     setState(() {
-      _counter++;
+      _count++;
     });
   }
 
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed this times: ',
             ),
             Text(
-              '$_counter',
+              '$_count',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
