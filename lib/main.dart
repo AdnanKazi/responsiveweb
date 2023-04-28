@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       useInheritedMediaQuery: true,
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
-      home: const MyHomePage(title: 'Flutter Home'),
+      home: const MyHomePage(title: 'Flutter Home '),
     );
   }
 }
